@@ -1,5 +1,5 @@
 import { rest } from "msw";
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen, waitFor } from  "../../../test-utils/test-library-utils";
 import { server } from "../../../mocks/server";
 import OrderEntry from "../OrderEntry";
 
